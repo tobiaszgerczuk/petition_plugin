@@ -1,0 +1,102 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#edit_petition_form{
+    max-width:20%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap:1rem;
+}
+#edit_petition_form label{
+    display: block;
+    width:100%;
+    font-weight: 600;
+}
+#edit_petition_form input{
+    display: block;
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+#edit_petition_form input::placeholder{
+    font-weight: 400;
+}
+.input_sumit_edit_petition{
+    width:100%;
+    display: flex;
+}
+#edit_petition_form input[type="submit"]{
+    max-width: 200px;
+    text-align: center;
+    border: 0;
+    padding:1rem 2rem;
+    background-color: #FFAC65;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.4s;
+}
+#edit_petition_form input[type="submit"]:hover{
+    background-color: #e08766;
+}
+.petition_admin_edit_page{
+    padding-top:2rem;
+}
+.petition_admin_page{
+    padding-top:2rem;
+}
+a.return_petition_list{
+    max-width: 150px;
+    text-align: center;
+    border: 0;
+    margin-top:1rem;
+    display: block;
+    margin-bottom: 1rem;
+    padding:0.2rem 0.1rem;
+    background-color: #529bcb;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+}
+a.return_petition_list:hover{
+    background-color: #e08766;
+}
+.petition_admin_page h1{
+    margin-bottom: 2rem;
+}
+
+#edit_petition_form input[type=checkbox]{
+    width: 15px;
+}
+.petition_admin_page .tablenav .tablenav-pages{
+    display: flex;
+    float: left;
+    column-gap: 4px;
+}
+
+.petition_admin_page .tablenav .tablenav-pages a{
+    display: block;
+    padding:7px 12px;
+    text-decoration: none;
+    text-align: center;
+    background: #FFAC65;
+    color: #fff;
+    transition: all 0.4s;
+}
+.petition_admin_page .tablenav .tablenav-pages a:hover{
+    background: #e08766
+}
+
+.petition_admin_page .tablenav .tablenav-pages span{
+    display: block;
+    padding:7px 12px;
+    text-align: center;
+    background: #cbbeae;
+    color: #fff;
+}
+.filter_email_petition{
+    margin-bottom: 1rem;
+}

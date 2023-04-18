@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Petition\n"
+"POT-Creation-Date: 2023-04-18 11:40+0200\n"
+"PO-Revision-Date: 2023-04-18 11:40+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: petition.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/partials/petition-admin-add.php:16
+#: admin/partials/petition-admin-edit.php:16
+#: admin/partials/petition-admin-list.php:67
+msgid "Back to list"
+msgstr "Powrót do listy"
+
+#: admin/partials/petition-admin-add.php:17
+msgid "Add petition"
+msgstr "Dodaj petycję"
+
+#: admin/partials/petition-admin-add.php:36
+msgid "This petition is already exist!"
+msgstr ""
+
+#: admin/partials/petition-admin-add.php:52
+msgid "Petition added"
+msgstr "Petycja została dodana"
+
+#: admin/partials/petition-admin-add.php:64
+#: admin/partials/petition-admin-edit.php:69
+#: admin/partials/petition-admin-list.php:74
+msgid "First name"
+msgstr "Imię"
+
+#: admin/partials/petition-admin-add.php:67
+msgid "Lat name"
+msgstr "Nazwisko"
+
+#: admin/partials/petition-admin-add.php:70
+#: admin/partials/petition-admin-edit.php:75
+#: admin/partials/petition-admin-list.php:76
+msgid "Email"
+msgstr ""
+
+#: admin/partials/petition-admin-add.php:73
+#: admin/partials/petition-admin-edit.php:78
+#: admin/partials/petition-admin-list.php:77
+msgid "Petition ID"
+msgstr "ID Petycji"
+
+#: admin/partials/petition-admin-add.php:76
+#: admin/partials/petition-admin-edit.php:81
+#: admin/partials/petition-admin-list.php:78
+msgid "Anonymous"
+msgstr "Anonimowy"
+
+#: admin/partials/petition-admin-add.php:79
+#: admin/partials/petition-admin-edit.php:84
+#: admin/partials/petition-admin-list.php:79
+msgid "Confirmed"
+msgstr "Potwierdzony"
+
+#: admin/partials/petition-admin-add.php:81
+#: admin/partials/petition-admin-edit.php:86
+#: admin/partials/petition-admin-list.php:80
+msgid "Featured"
+msgstr "Wyróżniony"
+
+#: admin/partials/petition-admin-add.php:87
+msgid "Add"
+msgstr "Dodaj"
+
+#: admin/partials/petition-admin-edit.php:17
+msgid "Edit petition"
+msgstr "Edytuj petycję"
+
+#: admin/partials/petition-admin-edit.php:53
+msgid "Updated successfully."
+msgstr "Zaktualizowano pomyślnie."
+
+#: admin/partials/petition-admin-edit.php:72
+#: admin/partials/petition-admin-list.php:75
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: admin/partials/petition-admin-edit.php:96
+msgid "Upadate"
+msgstr "Aktualizuj"
+
+#: admin/partials/petition-admin-list.php:18
+msgid "Petition list"
+msgstr "Lista petycji"
+
+#: admin/partials/petition-admin-list.php:30
+msgid "Deleted successfully"
+msgstr "Usunięto pomyślnie"
+
+#: admin/partials/petition-admin-list.php:41
+msgid "Filter by email:"
+msgstr "Filtruj email"
+
+#: admin/partials/petition-admin-list.php:43
+msgid "Filter"
+msgstr "Filtruj"
+
+#: admin/partials/petition-admin-list.php:73
+msgid "ID"
+msgstr ""
+
+#: admin/partials/petition-admin-list.php:81
+msgid "Actions"
+msgstr "Akcje"
+
+#: admin/partials/petition-admin-list.php:93
+#: admin/partials/petition-admin-list.php:94
+#: admin/partials/petition-admin-list.php:95
+msgid "Yes"
+msgstr "Tak"
+
+#: admin/partials/petition-admin-list.php:93
+#: admin/partials/petition-admin-list.php:94
+#: admin/partials/petition-admin-list.php:95
+msgid "No"
+msgstr "Nie"
+
+#: admin/partials/petition-admin-list.php:96
+msgid "Edit"
+msgstr "Edytuj"
+
+#: admin/partials/petition-admin-list.php:99
+msgid "Delete"
+msgstr "Usuń"
+
+#: admin/partials/petition-admin-list.php:117
+msgid "&laquo; Previous"
+msgstr ""
+
+#: admin/partials/petition-admin-list.php:118
+msgid "Next &raquo;"
+msgstr ""
+
+#: includes/class-petition.php:109
+msgid "Petitions list"
+msgstr "Lista petycji"
+
+#. Plugin Name of the plugin/theme
+#: includes/class-petition.php:110
+msgid "Petition"
+msgstr "Petycja"
+
+#: includes/class-petition.php:121 includes/class-petition.php:122
+msgid "Edit petitioner"
+msgstr "Edytuj petycję"
+
+#: includes/class-petition.php:134 includes/class-petition.php:135
+msgid "Add petitioner"
+msgstr "Dodaj petycję"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wecode.agency"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Petition plugin for Avalon."
+msgstr "Plugin petycji dla: Avalon."
+
+#. Author of the plugin/theme
+msgid "Tobiasz Gerczuk"
+msgstr ""
