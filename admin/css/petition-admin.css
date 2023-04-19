@@ -100,3 +100,28 @@ a.return_petition_list:hover{
 .filter_email_petition{
     margin-bottom: 1rem;
 }
+input.delete_petition_button{
+    border: 0;
+    background: red;
+    cursor:pointer;
+    color: #fff;
+    transition: all 0.4s;
+}
+input.delete_petition_button:hover{
+    background: grey;
+}
+
+a.edit_petition_button{
+    border: 0;
+    background: #757575;
+    cursor:pointer;
+    padding:3px 5px;
+    color: #fff;
+    transition: all 0.4s;
+}
+a.edit_petition_button:hover{
+    background: #cbbfbf;
+}
+th.actions_last_edit_petition{
+    text-align: center;
+}

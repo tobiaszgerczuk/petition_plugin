@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Petition\n"
-"POT-Creation-Date: 2023-04-18 11:40+0200\n"
-"PO-Revision-Date: 2023-04-18 11:40+0200\n"
+"POT-Creation-Date: 2023-04-18 13:22+0200\n"
+"PO-Revision-Date: 2023-04-18 13:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -125,31 +125,35 @@ msgstr ""
 msgid "Actions"
 msgstr "Akcje"
 
-#: admin/partials/petition-admin-list.php:93
 #: admin/partials/petition-admin-list.php:94
 #: admin/partials/petition-admin-list.php:95
+#: admin/partials/petition-admin-list.php:96
 msgid "Yes"
 msgstr "Tak"
 
-#: admin/partials/petition-admin-list.php:93
 #: admin/partials/petition-admin-list.php:94
 #: admin/partials/petition-admin-list.php:95
+#: admin/partials/petition-admin-list.php:96
 msgid "No"
 msgstr "Nie"
 
-#: admin/partials/petition-admin-list.php:96
+#: admin/partials/petition-admin-list.php:97
 msgid "Edit"
 msgstr "Edytuj"
 
-#: admin/partials/petition-admin-list.php:99
+#: admin/partials/petition-admin-list.php:100
 msgid "Delete"
 msgstr "Usuń"
 
-#: admin/partials/petition-admin-list.php:117
+#: admin/partials/petition-admin-list.php:109
+msgid "No petitions"
+msgstr "Brak petycji"
+
+#: admin/partials/petition-admin-list.php:122
 msgid "&laquo; Previous"
 msgstr ""
 
-#: admin/partials/petition-admin-list.php:118
+#: admin/partials/petition-admin-list.php:123
 msgid "Next &raquo;"
 msgstr ""
 

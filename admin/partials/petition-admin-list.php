@@ -77,31 +77,36 @@
             <th><?php echo __('Petition ID', 'petition'); ?></th>
             <th><?php echo __('Anonymous', 'petition'); ?></th>
             <th><?php echo __('Confirmed', 'petition'); ?></th>
-            <th><?php echo __('Featured', 'petition'); ?></th>
-            <th><?php echo __('Actions', 'petition'); ?></th>
-            <th></th>
+            <th ><?php echo __('Featured', 'petition'); ?></th>
+            <th width="200" class="actions_last_edit_petition" colspan="2"><?php echo __('Actions', 'petition'); ?></th>
+
         </tr>
     <?php
-    foreach ($results as $result) {
-        ?>
-        <tr>
-            <td><?php echo $result->id; ?></td>
-            <td><?php echo $result->first_name; ?></td>
-            <td><?php echo $result->last_name; ?></td>
-            <td><?php echo $result->email; ?></td>
-            <td><?php echo $result->petition_id; ?></td>
-            <td><?php echo ($result->anonymous ? _e('Yes','petition') : _e('No','petition') ) ; ?></td>
-            <td><?php echo ($result->confirmed ? _e('Yes','petition') : _e('No','petition') ); ?></td>
-            <td><?php echo ($result->featured ? _e('Yes','petition') : _e('No','petition') ); ?></td>
-            <td><?php echo '<a href="?page=petition_edit&action=edit&id=' . $result->id . '&email=' . $result->email . '">'.__('Edit','petition').'</a>'; ?></td>
-            <td>
-                <form action="" name="submit_delete_petitioner" method="post">
-                    <input type="submit" name="sub" value="<?php echo  _e('Delete','petition'); ?>">
-                    <input type="hidden" name="id" value="<?php echo $result->id; ?>">
-                </form>
-            </td>
-        </tr>
-        <?php
+    if($results){
+        foreach ($results as $result) {
+            ?>
+            <tr>
+                <td><?php echo $result->id; ?></td>
+                <td><?php echo $result->first_name; ?></td>
+                <td><?php echo $result->last_name; ?></td>
+                <td><?php echo $result->email; ?></td>
+                <td><?php echo $result->petition_id; ?></td>
+                <td><?php echo ($result->anonymous ? _e('Yes','petition') : _e('No','petition') ) ; ?></td>
+                <td><?php echo ($result->confirmed ? _e('Yes','petition') : _e('No','petition') ); ?></td>
+                <td><?php echo ($result->featured ? _e('Yes','petition') : _e('No','petition') ); ?></td>
+                <td width="100" style="text-align:center;"><?php echo '<a class="edit_petition_button" href="?page=petition_edit&action=edit&id=' . $result->id . '&email=' . $result->email . '">'.__('Edit','petition').'</a>'; ?></td>
+                <td width="100" style="text-align:center;">
+                    <form action="" name="submit_delete_petitioner" method="post">
+                        <input class="delete_petition_button" type="submit" name="sub" value="<?php echo  _e('Delete','petition'); ?>">
+                        <input type="hidden" name="id" value="<?php echo $result->id; ?>">
+                    </form>
+                </td>
+            </tr>
+            <?php
+        }
+    }
+    else{
+        echo "<h2>".__('No petitions', 'petition')."</h2>";
     }
     ?>
 
